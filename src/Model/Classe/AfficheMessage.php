@@ -21,8 +21,5 @@ class AfficheMessage
         echo "Aie aie aie... Dommage vous avez perdu ;) Le mot à deviner était: $motDeviner \n";
     }
 
-    public function afficherIndice(string $feedback): void {
-        echo "Ressayez, voici un indice : $feedback\n";
-    }
 
 }

@@ -15,6 +15,8 @@ class ListeMots
     {
         return $this->mots;
     }
+
+    /*--------------------FNOCTION POUR AVOIR LE MOT RANDOM--------------------------------*/
     public function  getMotRandom(): string
     {
         $mots=$this->getMots();
